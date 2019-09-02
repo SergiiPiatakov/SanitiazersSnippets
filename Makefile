@@ -1,7 +1,6 @@
 CXX		= g++
 
-.PHONY all: 001 002 003 004 \
-			005
+.PHONY all: 001 002
 
 001:
 	$(CXX) 001_main.cpp -fsanitize=undefined -O2 -o 001_main
