@@ -1,4 +1,4 @@
-CXX		= g++
+CXX		= clang++
 
 .PHONY all: 001 002
 
